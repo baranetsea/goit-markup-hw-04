@@ -1,0 +1,365 @@
+body {font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #FFFFFF;}
+
+
+/* global */
+h2 {font-weight: 700;}
+
+h3 {font-weight: 500;}
+
+ul, ol {list-style-type: none;
+margin: 0;
+padding: 0;}
+
+a {text-decoration: none;}
+
+h1,h2,h3,h4,h5,h6, p {margin: 0;}
+
+img {display: block;}
+
+* {box-sizing: border-box;}
+
+
+.container {
+max-width: 1158px;  
+margin: 0 auto; 
+padding: 0 15px;
+}
+
+                                   /* header */
+/* logo */
+
+.header-border {border-bottom: 1px solid#e7e9fc;}
+.header-container-two{
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.logo-header {font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+width: 115px;
+margin-right: 76px;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.logo-left-header {color: #2E2F42}
+
+/* nav.menu */
+
+.nav-menu-list {
+width: 261px;
+display: flex;
+gap: 40px;    
+}
+.nav-logo{display: flex;
+align-items: center;
+gap: 76px;
+justify-content: start;
+}
+
+.nav-menu-a{
+color: #2E2F42;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.nav-menu-a:hover{color:#404BBF;}
+.nav-menu-a:active{color:#404BBF;}
+.nav-menu-a:focus{color:#404bbf;}
+
+/* contacts */
+
+.address-menu-list {display: flex;
+gap: 40px;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+.address {font-style: normal;
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-a {color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+font-style: normal;
+letter-spacing: 0.02em;
+}
+.contacts-a:hover {color: #404BBF;}
+.contacts-a:focus{color: #404BBF;}
+
+                                                              /* main */
+/* =============== section hero img =============== */
+
+.section-hero-img {background-color: #2E2F42;
+padding-top: 188px;
+padding-bottom: 188px;}
+
+.h-one {font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+max-width: 496px;
+padding-top: 188px; 
+margin: 0 auto;
+}
+.hero-button {
+color: #FFFFFF;
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+margin-top: 48px;
+margin-bottom: 188px;
+min-width: 169px;
+border: 0;
+border-radius: 4px;
+padding: 16px 32px;
+}
+.hero-button:hover{background-color: #404BBF;}
+.hero-button:focus{background-color: #404BBF;}
+
+/* =============== section features =============== */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
+}
+
+.section-features{padding-top: 120px;
+padding-bottom: 120px;}
+
+.features-list-item{display: flex;
+gap: 24px;
+}
+
+.list-card {width: calc((100% - 24px * 3) / 4);}
+
+.h-three {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.h-three-features-margin {margin-bottom: 8px;}
+
+.section-features-p {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.section-features li {list-style-type: none;}
+
+/* =============== section our team =============== */
+
+.section-our-team {background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;}
+
+.our-taem-list {display: flex;
+gap: 24px;
+}
+
+.section-our-team-li { background-color: #FFFFFF;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px}
+
+.img-margin{margin-bottom: 32px;}
+.our-team-container{padding: 32px 0;}
+.h-three-our-team-margin{margin-bottom: 8px;
+text-align: center;
+}
+.p-our-team-margin {
+text-align: center;}
+
+.section-our-team-h-two{
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2E2F42;
+margin-bottom: 72px;}
+
+
+/* card one h3+p styles from section2 */
+
+/* card two h3+p styles from section2 */
+
+/* card three h3+p styles from section2 */
+
+/* card four h3+p styles from section2 */
+
+    /* =============== section our portfolio =============== */
+
+.section-our-portfolio{padding-top: 120px;
+padding-bottom: 120px;}
+
+.section-our-portfolio-h-two {
+/* font-weight: 700; */
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2E2F42;
+margin-top: 120px;
+margin-bottom: 72px;}
+
+.portfolio-list{display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+
+.portfolio-list-item-container {border: 1px solid rgb(231, 233, 252);
+    border-top: none;
+    padding: 32px 16px;
+    }
+
+.portfolio-h-three-margin{margin-bottom: 8px;}
+
+/* banking app h3+p from section 2*/
+
+/* .bank-app h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+} */
+/* .bank-app p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+} */
+
+/* cashless p */
+
+/* .cashless-p h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .cashless-p p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+    /* meditation app */
+
+/* .meditation-app h3 {font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .meditation-app p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+    /* taxi service */
+
+/* .taxi-service h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+     */
+
+/* .taxi-service p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+/* screen ill */
+
+/* .screen-ill h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .screen-ill p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+/* online courses */
+
+/* .online-courses h3{ont-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .online-courses p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+                                            /* footer */
+/* footer style */
+
+.footer {background-color: #2E2F42;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.footer-p {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+margin-top: 16px;
+max-width: 264px;}
+
+/* logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+color: #4D5AE5;
+display: inline-block;
+margin-bottom: 16px;
+}
+
+.logo-left {
+    color: #f4f4fd
+}
+
