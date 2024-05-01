@@ -96,7 +96,8 @@ background-color: #404BBF;
 display: block;
 }
 
-.nav-menu-a-undrline:hover:after {#404BBF}
+.nav-menu-a-undrline:hover::after {color: #404BBF;}
+
 
 
 /* contacts */
@@ -473,7 +474,4 @@ display: inline-block;
 margin-bottom: 16px;
 }
 
-.logo-left {
-    color: #f4f4fd
-}
-
+.logo-left {color: #f4f4fd;}
