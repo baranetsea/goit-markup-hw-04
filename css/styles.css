@@ -30,13 +30,15 @@ padding: 0 15px;
                                    /* header */
 /* logo */
 
-.header-border {border-bottom: 1px solid#e7e9fc;}
+.header-border {border-bottom: 1px solid#e7e9fc;
+
+}
 .header-container-two{
 display: flex;
 justify-content: space-between;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);;
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-logo {
@@ -137,7 +139,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 max-width: 1440px;
 height: 600px;
 background-color: #2E2F42;
-background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)), url(../images/hero-background.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover; 
@@ -256,7 +258,7 @@ border-radius: 0 0 4px 4px;
 .our-taem-list-container {
 display: flex;
 justify-content: center;
-column-gap: 24px;}
+gap: 24px;}
 
 .social-link-item {width: 40px;
 height: 40px;}
@@ -476,8 +478,8 @@ color: #FFFFFF;
 margin-bottom: 16px;}
 
 .footer-social-links {
-    display: flex;
-    column-gap: 16px;
+display: flex;
+gap: 16px;
 }
 
 .social-link-icon-footer-one {
